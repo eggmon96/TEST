@@ -1,3 +1,4 @@
+# github 사용 연습
 # Rotary_Encoder_TIM
 ![](Rotary_Encoder.png)
 
