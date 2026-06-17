@@ -8,7 +8,7 @@
 * B1 버튼: PC13 — Encoder count 리셋
 * LD2: PA5 — 동작 표시 LED
 
-
+<img src="001.png">
 
 
 
