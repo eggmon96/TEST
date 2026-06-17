@@ -78,6 +78,9 @@ POS:    +22  CNT:    22  DIR: CCW (-)
 >>> ENCODER RESET (B1 pressed) <<<
 POS:     +0  CNT:     0  DIR: CW (+)
 ```
+
+---
+
 ```C
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
@@ -105,10 +108,13 @@ static volatile uint8_t  g_btn_reset     = 0;
 static          uint8_t  g_led_active    = 0;
 /* USER CODE END PV */
 ```
+```C
 /* USER CODE BEGIN PFP */
 static void MX_TIM3_Encoder_Init(void);
 static void PrintEncoderStatus(void);
 /* USER CODE END PFP */
+```
+```C
 /* USER CODE BEGIN 0 */
 
 /**
@@ -255,6 +261,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 }
 
 /* USER CODE END 0 */
+```
+```C
     /* USER CODE BEGIN 2 */
 
     /* Initialize TIM3 in encoder mode */
@@ -284,6 +292,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     HAL_UART_Transmit(&huart2, (uint8_t*)start_msg, sizeof(start_msg) - 1, 100);
 
     /* USER CODE END 2 */
+```
+```C
     /* USER CODE BEGIN WHILE */
     while (1)
     {
@@ -317,7 +327,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
         HAL_Delay(5);
 
         /* USER CODE END WHILE */
-정방향
+```
+
++ 정방향
 
 
-역방향
++ 역방향
