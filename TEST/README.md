@@ -12,12 +12,14 @@
 
 
 
-# 📁 프로젝트 구조
-{C:\work\stm32_rotary_encoder\
+## 📁 프로젝트 구조
+```
+C:\work\stm32_rotary_encoder\
 └── Core\
     ├── Inc\main.h
-    └── Src\main.c}
-#🔌 하드웨어 연결 (NUCLEO-F103RB)
+    └── Src\main.c
+```
+##🔌 하드웨어 연결 (NUCLEO-F103RB)
 신호	핀	TIM3 매핑	보드 커넥터
 Encoder Phase A	PA6	TIM3_CH1	D12
 Encoder Phase B	PA7	TIM3_CH2	D11
