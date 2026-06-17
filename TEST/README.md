@@ -9,8 +9,9 @@
 * LD2: PA5 — 동작 표시 LED
 
 <img src="001.png">
-
-
+<img src="002.png">
+<img src="003.png">
+<img src="004.png">
 
 ## 📁 프로젝트 구조
 ```
@@ -330,6 +331,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 ```
 
 + 정방향
-
+<img src="005.png">
 
 + 역방향
+<img src="006.png">
