@@ -1,3 +1,4 @@
+<img width="441" height="398" alt="Rotary_Encoder" src="https://github.com/user-attachments/assets/e5be894c-2045-44dd-9d61-1fbcdf6cafc0" />
 
 # Rotary_Encoder_TIM
 <img width="441" height="398" alt="Rotary_Encoder" src="https://github.com/user-attachments/assets/91e8e128-c154-4b07-8065-320e705e3f4d" />
